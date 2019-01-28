@@ -1,0 +1,11 @@
+.float-container {
+    position: relative;
+}
+
+.float-container .inline input {
+    outline: 0;
+}
+
+.absolute {
+    position: absolute;
+}

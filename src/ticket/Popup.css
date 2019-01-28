@@ -1,0 +1,66 @@
+.arrow {
+    position: absolute;
+    left: 50%;
+
+    height: 5px;
+    transform: translateY(-26px) scale(2.0);
+}
+
+.hideable-block:focus {
+    outline: 0;
+}
+
+.hideable-block {
+    text-align: left;
+
+    position: absolute;
+    display: inline-block;
+
+    background: white;
+
+    margin-top: 36px;
+    transform: translateX(-100px);
+
+    width: 240px;
+    padding: 20px;
+    font-size: 11px;
+    line-height: 20px;
+
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #e3e3e3;
+}
+
+.hideable-block blockquote {
+    background: #eee;
+    border-left: 2px solid #84bbc6;
+    padding: 10px 12px;
+    width: available;
+    margin: 16px 8px;
+}
+
+.hideable-block a:hover {
+    text-decoration: underline;
+}
+
+.hideable-block a, a:active {
+    color: #0052CC;
+    text-decoration: none;
+}
+
+.hideable-block.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.hideable-block.not-hidden {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.tooltip button {
+    font-size: 11px;
+    color: #777;
+}
